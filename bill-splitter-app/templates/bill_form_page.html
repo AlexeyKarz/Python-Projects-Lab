@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flatmates Bill Calculator</title>
+    <link rel="stylesheet" href="../static/main.css?v=4">
+    <script type="text/javascript" src="../static/script.js?v=2"></script>
+</head>
+<body>
+    <h2>The Bill Form</h2>
+    <p>Fill in the form and click the button to get the results</p>
+    <form id="billForm">
+        Bill Amount: <input type="text" id="amount" name="amount" value="100"><br>
+        Bill Period: <input type="text" id="period" name="period" value="December 2020"><br>
+        <hr>
+        <div id="flatmates">
+            <!-- Flatmates will be added here -->
+        </div>
+        <button type="button" onclick="addFlatmate()">Add Flatmate</button>
+        <button type="button" onclick="submitForm()">Calculate</button>
+    </form>
+    <hr>
+    <div id="results">
+        <!-- Results will be displayed here -->
+    </div>
+</body>
+</html>
