@@ -44,6 +44,21 @@ The tests for this project are located in the `tests` directory. You can run the
 python tests/test_runner.py
 ```
 *NOTE: You need to have the `sample.pdf` file in the root directory of the project to run the tests.*
+
+## Example of Usage
+
+Here are the the examples on the results that you can get by defining `slides_per_page` paramenter:
+| `slides_per_page` | Image |
+| --- | --- |
+| **=2** | <img width="500" alt="image" src="https://github.com/AlexeyKarz/Python-Projects-Lab/assets/92441134/c9e2734b-13cb-4435-a8a0-0f8a0ec06f2b"> |
+| **=3** | <img width="500" alt="image" src="https://github.com/AlexeyKarz/Python-Projects-Lab/assets/92441134/aa766c2f-a727-48e2-96e1-46c56b9844f6"> |
+| **=4** | <img width="500" alt="image" src="https://github.com/AlexeyKarz/Python-Projects-Lab/assets/92441134/d1802a5b-f4a5-44d9-b466-d46483c0a746"> |
+| **=6** | <img width="500" alt="image" src="https://github.com/AlexeyKarz/Python-Projects-Lab/assets/92441134/69516dc9-618b-4ae1-b35b-7d7a91c522ba"> |
+| **=9** | <img width="500" alt="image" src="https://github.com/AlexeyKarz/Python-Projects-Lab/assets/92441134/6cb5e8aa-fcb6-4690-9004-dda37a0f8c1d"> |
+| **=12** |<img width="500" alt="image" src="https://github.com/AlexeyKarz/Python-Projects-Lab/assets/92441134/a2b9cc42-d2eb-43c7-8739-22a676b6d2f7"> |
+
+_The `sample.pdf` file was created with standart [Canva](https://www.canva.com/ru_ru/) free tepmplate._
+
 ## Contributing
 
 Feel free to contribute to this project. You can add new features, improve the existing ones, or fix bugs. If you want to contribute, please open an issue or a pull request.
