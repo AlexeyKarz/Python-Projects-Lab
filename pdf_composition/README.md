@@ -8,6 +8,12 @@ Scripts combining (n-up) PDF pages into a single file and merging multiple PDF f
 
 *NOTE: All the position indexes and canvas sizes can be changed according to your goals and needs*
 
+
+
+---
+### Below is Legacy Code. My best implementation of NUP in python so far is here: [nup_pikepdf](https://github.com/AlexeyKarz/Python-Projects-Lab/tree/main/pdf_composition/nup_pikepdf). 
+---
+
 ### 1.1 `functions.py`
 Prerequisites for `functions.py` are: Python 3.x, PyMuPDF (fitz), PyPDF2, 
 Ensure you have Python installed on your system. You can download it from python.org.
